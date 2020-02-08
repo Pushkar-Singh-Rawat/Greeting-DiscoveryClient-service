@@ -8,4 +8,4 @@ greeting:
 eureka:
   client:
     serviceUrl:
-      defaultZone: localhost:8001/eureka/
+      defaultZone: http://localhost:8005/eureka/
