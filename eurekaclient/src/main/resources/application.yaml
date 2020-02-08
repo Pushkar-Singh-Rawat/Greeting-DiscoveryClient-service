@@ -1,0 +1,11 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: greetingClient
+greeting:
+  message: Welcome
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: localhost:8001/eureka/
